@@ -11,8 +11,8 @@
 #include <iostream>
 #include <producer_consumer.hpp>
 #include <string>
-
-using namespace boost::program_options;
+#include <boost/program_options.hpp>
+#include <vector>
 namespace fs = boost::filesystem;
 
 namespace webcrawler {
@@ -23,7 +23,7 @@ size_t write_data(void* ptr, size_t size, size_t nmemb, FILE* stream) {
 
 char* str_to_char(const std::string& str) {
   char* arr = new char[str.size() + 1];
-  std::strcpy(arr, str.c_str());
+  std::snprintf(arr, str.c_str());
   return arr;
 }
 

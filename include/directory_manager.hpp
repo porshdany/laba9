@@ -12,7 +12,7 @@ class directory_manager {
  public:
   directory_manager() = default;
 
-  directory_manager(const std::string& output) : output_(output) {}
+  explicit directory_manager(const std::string& output) : output_(output) {}
 
   directory_manager(const directory_manager&) = delete;
 

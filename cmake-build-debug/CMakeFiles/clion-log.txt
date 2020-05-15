@@ -1,0 +1,236 @@
+C:\Users\porsh\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/laba9
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/porsh/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 0a1854b | Config-ID: c351cc1 ]
+-- [hunter] GTEST_ROOT: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install (ver.: 1.8.0-hunter-p11)
+-- [hunter] BOOST_ROOT: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] Building Boost (component: program_options)
+loading initial cache file /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/cache.cmake
+loading initial cache file /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/args.cmake
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++.exe
+-- Check for working CXX compiler: /usr/bin/c++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Build
+Scanning dependencies of target Boost-program_options
+[ 12%] Creating directories for 'Boost-program_options'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-program_options'
+-- verifying file...
+       file='/home/porsh/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/porsh/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+  SHA1='e6bb97b5109c7c15ea459cf2b1a9d52cbf88a89e'
+-- extracting...
+     src='/home/porsh/.hunter/_Base/Download/Boost/1.70.0-p0/e6bb97b/v1.70.0-p0.tar.gz'
+     dst='/home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No patch step for 'Boost-program_options'
+[ 50%] Performing update step for 'Boost-program_options'
+[ 62%] Performing configure step for 'Boost-program_options'
+Dummy patch command
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.cygwinx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam for gcc...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To generate header files, run:
+
+    ./b2 headers
+
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/
+
+[ 75%] Performing build step for 'Boost-program_options'
+Performing configuration checks
+
+    - default address-model    : 64-bit
+    - default architecture     : x86
+
+Building the Boost C++ Libraries.
+
+
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 1056 targets...
+...updating 43 targets...
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/split.o
+gcc.archive bin.v2/libs/program_options/build/gcc-7.4.0/debug/link-static/threading-multi/visibility-hidden/libboost_program_options-mt-d-x64.a
+common.copy /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Source/stage/lib/libboost_program_options-mt-d-x64.a
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/split.o
+gcc.archive bin.v2/libs/program_options/build/gcc-7.4.0/release/link-static/threading-multi/visibility-hidden/libboost_program_options-mt-x64.a
+common.copy /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Source/stage/lib/libboost_program_options-mt-x64.a
+...updated 43 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Source
+
+The following directory should be added to linker library paths:
+
+    /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options/Source/stage/lib
+
+[ 87%] Performing install step for 'Boost-program_options'
+Performing configuration checks
+
+    - default address-model    : 64-bit
+    - default architecture     : x86
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - stacktrace               : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-program_options'
+[100%] Built target Boost-program_options
+-- [hunter] Build step successful (dir: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Build/Boost/__program_options)
+-- [hunter] Cache saved: /home/porsh/.hunter/_Base/Cache/raw/84fa9845250281c362d7b5d6a81423c22f89a283.tar.bz2
+-- [hunter] BOOST_ROOT: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install (ver.: 1.70.0-p0)
+-- [hunter] BOOST_ROOT: /home/porsh/.hunter/_Base/9a3594a/0a1854b/c351cc1/Install (ver.: 1.70.0-p0)
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   program_options
+--   thread
+--   filesystem
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+CMake Error at /cygdrive/c/Users/porsh/.CLion2019.2/system/cygwin_cmake/share/cmake-3.15.3/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find CURL (missing: CURL_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /cygdrive/c/Users/porsh/.CLion2019.2/system/cygwin_cmake/share/cmake-3.15.3/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  /cygdrive/c/Users/porsh/.CLion2019.2/system/cygwin_cmake/share/cmake-3.15.3/Modules/FindCURL.cmake:143 (find_package_handle_standard_args)
+  CMakeLists.txt:31 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/d/laba9/cmake-build-debug/CMakeFiles/CMakeOutput.log".

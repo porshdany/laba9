@@ -12,7 +12,7 @@ set(
 )
 set(CURL_LIBRARY "-lcurl")
 
-include("tools/gate/cmake/HunterGate.cmake")
+include("HunterGate.cmake")
 
 HunterGate(
   URL "https://github.com/cpp-pm/hunter/archive/v0.23.218.tar.gz"

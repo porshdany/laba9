@@ -3,6 +3,8 @@
 #include <chrono>
 #include <safe_deque.hpp>
 #include <thread>
+#include <vector>
+#include <deque>
 
 template <class T>
 class producer_consumer {

@@ -11,7 +11,6 @@
 #include <iostream>
 #include <producer_consumer.hpp>
 #include <string>
-#include <boost/program_options.hpp>
 #include <vector>
 namespace fs = boost::filesystem;
 
